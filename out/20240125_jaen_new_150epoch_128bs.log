@@ -1,0 +1,2410 @@
+1it [00:00,  9.30it/s]Evaluate at epoch 0...
+310it [00:02, 131.17it/s]
+310it [00:01, 191.53it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.756
+Hit@10:0.862
+34it [00:06,  6.06it/s]epoch: 0 batch: 34 loss: 0.045822545886039734
+Evaluate at epoch 0: batch 34...
+310it [00:01, 210.10it/s]
+310it [00:01, 207.50it/s]
+35it [00:10,  3.31it/s]
+1it [00:00,  6.07it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.768
+Hit@10:0.869
+Test Hit@1(10)    = 0.768(0.869) at epoch 0 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.768(0.869) at epoch 0
+Best Test  Hit@10 = 0.869(0.768) at epoch 0
+====================================
+34it [00:05,  6.29it/s]epoch: 1 batch: 34 loss: 0.03704289346933365
+Evaluate at epoch 1: batch 34...
+310it [00:01, 210.72it/s]
+310it [00:01, 215.65it/s]
+35it [00:10,  3.47it/s]
+1it [00:00,  6.13it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.774
+Hit@10:0.878
+Test Hit@1(10)    = 0.774(0.878) at epoch 1 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.774(0.878) at epoch 1
+Best Test  Hit@10 = 0.878(0.774) at epoch 1
+====================================
+34it [00:06,  4.23it/s]epoch: 2 batch: 34 loss: 0.028780125081539154
+Evaluate at epoch 2: batch 34...
+310it [00:01, 218.04it/s]
+310it [00:01, 223.16it/s]
+35it [00:10,  3.31it/s]
+1it [00:00,  6.12it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.783
+Hit@10:0.886
+Test Hit@1(10)    = 0.783(0.886) at epoch 2 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.783(0.886) at epoch 2
+Best Test  Hit@10 = 0.886(0.783) at epoch 2
+====================================
+34it [00:05,  6.59it/s]epoch: 3 batch: 34 loss: 0.023518100380897522
+Evaluate at epoch 3: batch 34...
+310it [00:01, 210.26it/s]
+310it [00:01, 209.25it/s]
+35it [00:09,  3.61it/s]
+1it [00:00,  6.04it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.789
+Hit@10:0.891
+Test Hit@1(10)    = 0.789(0.891) at epoch 3 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.789(0.891) at epoch 3
+Best Test  Hit@10 = 0.891(0.789) at epoch 3
+====================================
+34it [00:05,  6.60it/s]epoch: 4 batch: 34 loss: 0.02068464085459709
+Evaluate at epoch 4: batch 34...
+310it [00:01, 202.92it/s]
+310it [00:01, 219.44it/s]
+35it [00:09,  3.56it/s]
+1it [00:00,  6.11it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.792
+Hit@10:0.893
+Test Hit@1(10)    = 0.792(0.893) at epoch 4 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.792(0.893) at epoch 4
+Best Test  Hit@10 = 0.893(0.792) at epoch 4
+====================================
+34it [00:06,  6.49it/s]epoch: 5 batch: 34 loss: 0.019035300239920616
+Evaluate at epoch 5: batch 34...
+310it [00:01, 227.53it/s]
+310it [00:01, 221.95it/s]
+35it [00:10,  3.42it/s]
+1it [00:00,  6.69it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.794
+Hit@10:0.895
+Test Hit@1(10)    = 0.794(0.895) at epoch 5 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.794(0.895) at epoch 5
+Best Test  Hit@10 = 0.895(0.794) at epoch 5
+====================================
+34it [00:05,  6.75it/s]epoch: 6 batch: 34 loss: 0.017942585051059723
+Evaluate at epoch 6: batch 34...
+310it [00:01, 221.99it/s]
+310it [00:01, 220.28it/s]
+35it [00:09,  3.77it/s]
+1it [00:00,  6.59it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.794
+Hit@10:0.895
+Test Hit@1(10)    = 0.794(0.895) at epoch 6 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.794(0.895) at epoch 5
+Best Test  Hit@10 = 0.895(0.794) at epoch 5
+====================================
+34it [00:05,  6.61it/s]epoch: 7 batch: 34 loss: 0.017148306593298912
+Evaluate at epoch 7: batch 34...
+310it [00:01, 211.65it/s]
+310it [00:01, 218.49it/s]
+35it [00:09,  3.75it/s]
+1it [00:00,  6.86it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.795
+Hit@10:0.897
+Test Hit@1(10)    = 0.795(0.897) at epoch 7 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.795(0.897) at epoch 7
+Best Test  Hit@10 = 0.897(0.795) at epoch 7
+====================================
+34it [00:05,  6.71it/s]epoch: 8 batch: 34 loss: 0.01653909869492054
+Evaluate at epoch 8: batch 34...
+310it [00:01, 219.38it/s]
+310it [00:01, 221.86it/s]
+35it [00:09,  3.72it/s]
+1it [00:00,  6.88it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.796
+Hit@10:0.898
+Test Hit@1(10)    = 0.796(0.898) at epoch 8 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.796(0.898) at epoch 8
+Best Test  Hit@10 = 0.898(0.796) at epoch 8
+====================================
+34it [00:05,  6.16it/s]epoch: 9 batch: 34 loss: 0.0160576980561018
+Evaluate at epoch 9: batch 34...
+310it [00:01, 218.72it/s]
+310it [00:01, 224.17it/s]
+35it [00:09,  3.69it/s]
+1it [00:00,  6.90it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.797
+Hit@10:0.899
+Test Hit@1(10)    = 0.797(0.899) at epoch 9 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.797(0.899) at epoch 9
+Best Test  Hit@10 = 0.899(0.797) at epoch 9
+====================================
+34it [00:05,  5.64it/s]epoch: 10 batch: 34 loss: 0.015670279040932655
+Evaluate at epoch 10: batch 34...
+310it [00:01, 209.84it/s]
+310it [00:01, 202.28it/s]
+35it [00:10,  3.27it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.797
+Hit@10:0.899
+Test Hit@1(10)    = 0.797(0.899) at epoch 10 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.797(0.899) at epoch 9
+Best Test  Hit@10 = 0.899(0.797) at epoch 9
+====================================
+34it [00:05,  6.44it/s]epoch: 11 batch: 34 loss: 0.015354064293205738
+Evaluate at epoch 11: batch 34...
+310it [00:01, 216.12it/s]
+310it [00:01, 220.30it/s]
+35it [00:09,  3.50it/s]
+1it [00:00,  7.03it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.798
+Hit@10:0.901
+Test Hit@1(10)    = 0.798(0.901) at epoch 11 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.798(0.901) at epoch 11
+Best Test  Hit@10 = 0.901(0.798) at epoch 11
+====================================
+34it [00:06,  6.47it/s]epoch: 12 batch: 34 loss: 0.01509246788918972
+Evaluate at epoch 12: batch 34...
+310it [00:01, 214.09it/s]
+310it [00:01, 215.70it/s]
+35it [00:11,  3.15it/s]
+1it [00:00,  7.39it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.798
+Hit@10:0.901
+Test Hit@1(10)    = 0.798(0.901) at epoch 12 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.798(0.901) at epoch 11
+Best Test  Hit@10 = 0.901(0.798) at epoch 11
+====================================
+34it [00:05,  6.20it/s]epoch: 13 batch: 34 loss: 0.014873011969029903
+Evaluate at epoch 13: batch 34...
+310it [00:01, 215.19it/s]
+310it [00:01, 220.18it/s]
+35it [00:09,  3.80it/s]
+1it [00:00,  7.16it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.799
+Hit@10:0.902
+Test Hit@1(10)    = 0.799(0.902) at epoch 13 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.799(0.902) at epoch 13
+Best Test  Hit@10 = 0.902(0.799) at epoch 13
+====================================
+34it [00:06,  5.58it/s]epoch: 14 batch: 34 loss: 0.014686237089335918
+Evaluate at epoch 14: batch 34...
+310it [00:01, 213.14it/s]
+310it [00:01, 225.51it/s]
+35it [00:10,  3.38it/s]
+1it [00:00,  6.44it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.8
+Hit@10:0.903
+Test Hit@1(10)    = 0.8(0.903) at epoch 14 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.8(0.903) at epoch 14
+Best Test  Hit@10 = 0.903(0.8) at epoch 14
+====================================
+34it [00:05,  6.05it/s]epoch: 15 batch: 34 loss: 0.014524981379508972
+Evaluate at epoch 15: batch 34...
+310it [00:01, 216.15it/s]
+310it [00:01, 211.97it/s]
+35it [00:10,  3.48it/s]
+1it [00:00,  6.97it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.8
+Hit@10:0.904
+Test Hit@1(10)    = 0.8(0.904) at epoch 15 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.8(0.903) at epoch 14
+Best Test  Hit@10 = 0.904(0.8) at epoch 15
+====================================
+34it [00:05,  5.89it/s]epoch: 16 batch: 34 loss: 0.0143838319927454
+Evaluate at epoch 16: batch 34...
+310it [00:01, 212.15it/s]
+310it [00:01, 217.70it/s]
+35it [00:09,  3.57it/s]
+1it [00:00,  5.89it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.801
+Hit@10:0.905
+Test Hit@1(10)    = 0.801(0.905) at epoch 16 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.801(0.905) at epoch 16
+Best Test  Hit@10 = 0.905(0.801) at epoch 16
+====================================
+34it [00:05,  6.24it/s]epoch: 17 batch: 34 loss: 0.014258677139878273
+Evaluate at epoch 17: batch 34...
+310it [00:01, 208.88it/s]
+310it [00:01, 210.56it/s]
+35it [00:10,  3.41it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.802
+Hit@10:0.905
+Test Hit@1(10)    = 0.802(0.905) at epoch 17 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.802(0.905) at epoch 17
+Best Test  Hit@10 = 0.905(0.801) at epoch 16
+====================================
+34it [00:06,  6.39it/s]epoch: 18 batch: 34 loss: 0.014146404340863228
+Evaluate at epoch 18: batch 34...
+310it [00:01, 211.28it/s]
+310it [00:01, 214.97it/s]
+35it [00:10,  3.28it/s]
+1it [00:00,  5.97it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.802
+Hit@10:0.906
+Test Hit@1(10)    = 0.802(0.906) at epoch 18 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.802(0.905) at epoch 17
+Best Test  Hit@10 = 0.906(0.802) at epoch 18
+====================================
+34it [00:05,  5.70it/s]epoch: 19 batch: 34 loss: 0.014044621028006077
+Evaluate at epoch 19: batch 34...
+310it [00:01, 214.82it/s]
+310it [00:01, 219.94it/s]
+35it [00:09,  3.62it/s]
+1it [00:00,  5.61it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.803
+Hit@10:0.907
+Test Hit@1(10)    = 0.803(0.907) at epoch 19 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.803(0.907) at epoch 19
+Best Test  Hit@10 = 0.907(0.803) at epoch 19
+====================================
+34it [00:05,  6.37it/s]epoch: 20 batch: 34 loss: 0.013951496221125126
+Evaluate at epoch 20: batch 34...
+310it [00:01, 214.50it/s]
+310it [00:01, 217.33it/s]
+35it [00:09,  3.52it/s]
+1it [00:00,  6.31it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.804
+Hit@10:0.907
+Test Hit@1(10)    = 0.804(0.907) at epoch 20 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.804(0.907) at epoch 20
+Best Test  Hit@10 = 0.907(0.803) at epoch 19
+====================================
+34it [00:05,  6.03it/s]epoch: 21 batch: 34 loss: 0.013865613378584385
+Evaluate at epoch 21: batch 34...
+310it [00:01, 218.01it/s]
+310it [00:01, 212.03it/s]
+35it [00:09,  3.53it/s]
+1it [00:00,  6.69it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.804
+Hit@10:0.907
+Test Hit@1(10)    = 0.804(0.907) at epoch 21 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.804(0.907) at epoch 20
+Best Test  Hit@10 = 0.907(0.803) at epoch 19
+====================================
+34it [00:05,  6.49it/s]epoch: 22 batch: 34 loss: 0.013785863295197487
+Evaluate at epoch 22: batch 34...
+310it [00:01, 213.35it/s]
+310it [00:01, 216.72it/s]
+35it [00:09,  3.75it/s]
+1it [00:00,  6.90it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.805
+Hit@10:0.907
+Test Hit@1(10)    = 0.805(0.907) at epoch 22 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.805(0.907) at epoch 22
+Best Test  Hit@10 = 0.907(0.803) at epoch 19
+====================================
+34it [00:05,  6.62it/s]epoch: 23 batch: 34 loss: 0.013711373321712017
+Evaluate at epoch 23: batch 34...
+310it [00:01, 217.95it/s]
+310it [00:01, 217.44it/s]
+35it [00:09,  3.68it/s]
+1it [00:00,  7.26it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.806
+Hit@10:0.908
+Test Hit@1(10)    = 0.806(0.908) at epoch 23 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.806(0.908) at epoch 23
+Best Test  Hit@10 = 0.908(0.806) at epoch 23
+====================================
+34it [00:05,  6.04it/s]epoch: 24 batch: 34 loss: 0.013641451485455036
+Evaluate at epoch 24: batch 34...
+310it [00:01, 214.09it/s]
+310it [00:01, 215.26it/s]
+35it [00:09,  3.62it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.806
+Hit@10:0.908
+Test Hit@1(10)    = 0.806(0.908) at epoch 24 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.806(0.908) at epoch 23
+Best Test  Hit@10 = 0.908(0.806) at epoch 23
+====================================
+34it [00:05,  6.12it/s]epoch: 25 batch: 34 loss: 0.013575546443462372
+Evaluate at epoch 25: batch 34...
+310it [00:01, 210.76it/s]
+310it [00:01, 214.82it/s]
+35it [00:09,  3.54it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.806
+Hit@10:0.908
+Test Hit@1(10)    = 0.806(0.908) at epoch 25 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.806(0.908) at epoch 23
+Best Test  Hit@10 = 0.908(0.806) at epoch 23
+====================================
+34it [00:05,  5.07it/s]epoch: 26 batch: 34 loss: 0.013513213023543358
+Evaluate at epoch 26: batch 34...
+310it [00:01, 211.80it/s]
+310it [00:01, 215.95it/s]
+35it [00:09,  3.54it/s]
+1it [00:00,  6.50it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.806
+Hit@10:0.909
+Test Hit@1(10)    = 0.806(0.909) at epoch 26 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.806(0.908) at epoch 23
+Best Test  Hit@10 = 0.909(0.806) at epoch 26
+====================================
+34it [00:06,  4.63it/s]epoch: 27 batch: 34 loss: 0.013454075902700424
+Evaluate at epoch 27: batch 34...
+310it [00:01, 198.98it/s]
+310it [00:01, 199.08it/s]
+35it [00:10,  3.21it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.808
+Hit@10:0.909
+Test Hit@1(10)    = 0.808(0.909) at epoch 27 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.808(0.909) at epoch 27
+Best Test  Hit@10 = 0.909(0.806) at epoch 26
+====================================
+34it [00:05,  5.55it/s]epoch: 28 batch: 34 loss: 0.01339783612638712
+Evaluate at epoch 28: batch 34...
+310it [00:01, 215.95it/s]
+310it [00:01, 213.53it/s]
+35it [00:09,  3.51it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.808
+Hit@10:0.91
+Test Hit@1(10)    = 0.808(0.91) at epoch 28 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.808(0.909) at epoch 27
+Best Test  Hit@10 = 0.91(0.808) at epoch 28
+====================================
+34it [00:06,  5.43it/s]epoch: 29 batch: 34 loss: 0.013344230130314827
+Evaluate at epoch 29: batch 34...
+310it [00:01, 211.73it/s]
+310it [00:01, 215.84it/s]
+35it [00:10,  3.28it/s]
+1it [00:00,  6.21it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.808
+Hit@10:0.911
+Test Hit@1(10)    = 0.808(0.911) at epoch 29 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.808(0.909) at epoch 27
+Best Test  Hit@10 = 0.911(0.808) at epoch 29
+====================================
+34it [00:05,  6.71it/s]epoch: 30 batch: 34 loss: 0.013293039985001087
+Evaluate at epoch 30: batch 34...
+310it [00:01, 210.44it/s]
+310it [00:01, 212.59it/s]
+35it [00:09,  3.53it/s]
+1it [00:00,  6.65it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.809
+Hit@10:0.91
+Test Hit@1(10)    = 0.809(0.91) at epoch 30 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.809(0.91) at epoch 30
+Best Test  Hit@10 = 0.911(0.808) at epoch 29
+====================================
+34it [00:05,  6.94it/s]epoch: 31 batch: 34 loss: 0.013244077563285828
+Evaluate at epoch 31: batch 34...
+310it [00:01, 216.76it/s]
+310it [00:01, 217.33it/s]
+35it [00:09,  3.72it/s]
+1it [00:00,  7.20it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.809
+Hit@10:0.911
+Test Hit@1(10)    = 0.809(0.911) at epoch 31 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.809(0.91) at epoch 30
+Best Test  Hit@10 = 0.911(0.808) at epoch 29
+====================================
+34it [00:05,  4.69it/s]epoch: 32 batch: 34 loss: 0.01319716777652502
+Evaluate at epoch 32: batch 34...
+310it [00:01, 222.24it/s]
+310it [00:01, 217.59it/s]
+35it [00:09,  3.64it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.81
+Hit@10:0.911
+Test Hit@1(10)    = 0.81(0.911) at epoch 32 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.81(0.911) at epoch 32
+Best Test  Hit@10 = 0.911(0.808) at epoch 29
+====================================
+34it [00:05,  6.37it/s]epoch: 33 batch: 34 loss: 0.013152172788977623
+Evaluate at epoch 33: batch 34...
+310it [00:01, 216.29it/s]
+310it [00:01, 218.59it/s]
+35it [00:09,  3.75it/s]
+1it [00:00,  5.94it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.81
+Hit@10:0.912
+Test Hit@1(10)    = 0.81(0.912) at epoch 33 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.81(0.911) at epoch 32
+Best Test  Hit@10 = 0.912(0.81) at epoch 33
+====================================
+34it [00:05,  6.80it/s]epoch: 34 batch: 34 loss: 0.013108954764902592
+Evaluate at epoch 34: batch 34...
+310it [00:01, 215.42it/s]
+310it [00:01, 216.22it/s]
+35it [00:09,  3.69it/s]
+1it [00:00,  6.61it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.81
+Hit@10:0.912
+Test Hit@1(10)    = 0.81(0.912) at epoch 34 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.81(0.911) at epoch 32
+Best Test  Hit@10 = 0.912(0.81) at epoch 33
+====================================
+34it [00:05,  6.56it/s]epoch: 35 batch: 34 loss: 0.013067388907074928
+Evaluate at epoch 35: batch 34...
+310it [00:01, 215.41it/s]
+310it [00:01, 217.70it/s]
+35it [00:09,  3.74it/s]
+1it [00:00,  5.78it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.81
+Hit@10:0.913
+Test Hit@1(10)    = 0.81(0.913) at epoch 35 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.81(0.911) at epoch 32
+Best Test  Hit@10 = 0.913(0.81) at epoch 35
+====================================
+34it [00:05,  6.68it/s]epoch: 36 batch: 34 loss: 0.013027379289269447
+Evaluate at epoch 36: batch 34...
+310it [00:01, 218.97it/s]
+310it [00:01, 216.29it/s]
+35it [00:09,  3.71it/s]
+1it [00:00,  6.11it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.811
+Hit@10:0.913
+Test Hit@1(10)    = 0.811(0.913) at epoch 36 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.811(0.913) at epoch 36
+Best Test  Hit@10 = 0.913(0.81) at epoch 35
+====================================
+34it [00:05,  6.48it/s]epoch: 37 batch: 34 loss: 0.012988816946744919
+Evaluate at epoch 37: batch 34...
+310it [00:01, 220.13it/s]
+310it [00:01, 218.15it/s]
+35it [00:09,  3.76it/s]
+1it [00:00,  6.37it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.811
+Hit@10:0.914
+Test Hit@1(10)    = 0.811(0.914) at epoch 37 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.811(0.913) at epoch 36
+Best Test  Hit@10 = 0.914(0.811) at epoch 37
+====================================
+34it [00:05,  6.67it/s]epoch: 38 batch: 34 loss: 0.01295162457972765
+Evaluate at epoch 38: batch 34...
+310it [00:01, 216.29it/s]
+310it [00:01, 223.14it/s]
+35it [00:09,  3.61it/s]
+1it [00:00,  6.39it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.811
+Hit@10:0.914
+Test Hit@1(10)    = 0.811(0.914) at epoch 38 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.811(0.913) at epoch 36
+Best Test  Hit@10 = 0.914(0.811) at epoch 37
+====================================
+34it [00:05,  6.76it/s]epoch: 39 batch: 34 loss: 0.0129157155752182
+Evaluate at epoch 39: batch 34...
+310it [00:01, 218.01it/s]
+310it [00:01, 219.67it/s]
+35it [00:09,  3.67it/s]
+1it [00:00,  6.51it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.811
+Hit@10:0.914
+Test Hit@1(10)    = 0.811(0.914) at epoch 39 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.811(0.913) at epoch 36
+Best Test  Hit@10 = 0.914(0.811) at epoch 37
+====================================
+34it [00:05,  5.88it/s]epoch: 40 batch: 34 loss: 0.012881016358733177
+Evaluate at epoch 40: batch 34...
+310it [00:01, 215.47it/s]
+310it [00:01, 217.03it/s]
+35it [00:09,  3.56it/s]
+1it [00:00,  6.27it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.811
+Hit@10:0.915
+Test Hit@1(10)    = 0.811(0.915) at epoch 40 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.811(0.913) at epoch 36
+Best Test  Hit@10 = 0.915(0.811) at epoch 40
+====================================
+34it [00:05,  6.80it/s]epoch: 41 batch: 34 loss: 0.012847459875047207
+Evaluate at epoch 41: batch 34...
+310it [00:01, 214.33it/s]
+310it [00:01, 220.34it/s]
+35it [00:09,  3.69it/s]
+1it [00:00,  6.22it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.812
+Hit@10:0.915
+Test Hit@1(10)    = 0.812(0.915) at epoch 41 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.812(0.915) at epoch 41
+Best Test  Hit@10 = 0.915(0.811) at epoch 40
+====================================
+34it [00:05,  6.97it/s]epoch: 42 batch: 34 loss: 0.012814990244805813
+Evaluate at epoch 42: batch 34...
+310it [00:01, 217.92it/s]
+310it [00:01, 204.13it/s]
+35it [00:09,  3.65it/s]
+1it [00:00,  6.27it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.811
+Hit@10:0.915
+Test Hit@1(10)    = 0.811(0.915) at epoch 42 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.812(0.915) at epoch 41
+Best Test  Hit@10 = 0.915(0.811) at epoch 40
+====================================
+34it [00:05,  5.77it/s]epoch: 43 batch: 34 loss: 0.01278354786336422
+Evaluate at epoch 43: batch 34...
+310it [00:01, 215.29it/s]
+310it [00:01, 220.22it/s]
+35it [00:09,  3.64it/s]
+1it [00:00,  5.97it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.811
+Hit@10:0.916
+Test Hit@1(10)    = 0.811(0.916) at epoch 43 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.812(0.915) at epoch 41
+Best Test  Hit@10 = 0.916(0.811) at epoch 43
+====================================
+34it [00:05,  6.76it/s]epoch: 44 batch: 34 loss: 0.012753082439303398
+Evaluate at epoch 44: batch 34...
+310it [00:01, 217.97it/s]
+310it [00:01, 214.57it/s]
+35it [00:09,  3.56it/s]
+1it [00:00,  6.17it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.811
+Hit@10:0.916
+Test Hit@1(10)    = 0.811(0.916) at epoch 44 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.812(0.915) at epoch 41
+Best Test  Hit@10 = 0.916(0.811) at epoch 43
+====================================
+34it [00:05,  6.35it/s]epoch: 45 batch: 34 loss: 0.01272355206310749
+Evaluate at epoch 45: batch 34...
+310it [00:01, 216.19it/s]
+310it [00:01, 217.91it/s]
+35it [00:10,  3.44it/s]
+1it [00:00,  5.95it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.811
+Hit@10:0.916
+Test Hit@1(10)    = 0.811(0.916) at epoch 45 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.812(0.915) at epoch 41
+Best Test  Hit@10 = 0.916(0.811) at epoch 43
+====================================
+34it [00:05,  6.67it/s]epoch: 46 batch: 34 loss: 0.01269491296261549
+Evaluate at epoch 46: batch 34...
+310it [00:01, 214.72it/s]
+310it [00:01, 215.94it/s]
+35it [00:09,  3.70it/s]
+1it [00:00,  6.24it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.812
+Hit@10:0.917
+Test Hit@1(10)    = 0.812(0.917) at epoch 46 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.812(0.915) at epoch 41
+Best Test  Hit@10 = 0.917(0.812) at epoch 46
+====================================
+34it [00:05,  6.26it/s]epoch: 47 batch: 34 loss: 0.012667125090956688
+Evaluate at epoch 47: batch 34...
+310it [00:01, 215.35it/s]
+310it [00:01, 214.92it/s]
+35it [00:09,  3.66it/s]
+1it [00:00,  5.37it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.812
+Hit@10:0.917
+Test Hit@1(10)    = 0.812(0.917) at epoch 47 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.812(0.915) at epoch 41
+Best Test  Hit@10 = 0.917(0.812) at epoch 46
+====================================
+34it [00:05,  5.80it/s]epoch: 48 batch: 34 loss: 0.012640157714486122
+Evaluate at epoch 48: batch 34...
+310it [00:01, 216.29it/s]
+310it [00:01, 212.02it/s]
+35it [00:09,  3.64it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.812
+Hit@10:0.918
+Test Hit@1(10)    = 0.812(0.918) at epoch 48 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.812(0.915) at epoch 41
+Best Test  Hit@10 = 0.918(0.812) at epoch 48
+====================================
+34it [00:05,  6.63it/s]epoch: 49 batch: 34 loss: 0.012613973580300808
+Evaluate at epoch 49: batch 34...
+310it [00:01, 215.30it/s]
+310it [00:01, 218.01it/s]
+35it [00:09,  3.64it/s]
+1it [00:00,  6.60it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.812
+Hit@10:0.917
+Test Hit@1(10)    = 0.812(0.917) at epoch 49 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.812(0.915) at epoch 41
+Best Test  Hit@10 = 0.918(0.812) at epoch 48
+====================================
+34it [00:05,  6.36it/s]epoch: 50 batch: 34 loss: 0.012588541954755783
+Evaluate at epoch 50: batch 34...
+310it [00:01, 214.98it/s]
+310it [00:01, 219.87it/s]
+35it [00:09,  3.69it/s]
+1it [00:00,  5.72it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.812
+Hit@10:0.918
+Test Hit@1(10)    = 0.812(0.918) at epoch 50 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.812(0.915) at epoch 41
+Best Test  Hit@10 = 0.918(0.812) at epoch 48
+====================================
+34it [00:05,  5.57it/s]epoch: 51 batch: 34 loss: 0.012563836760818958
+Evaluate at epoch 51: batch 34...
+310it [00:01, 213.61it/s]
+310it [00:01, 208.67it/s]
+35it [00:10,  3.50it/s]
+1it [00:00,  6.10it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.812
+Hit@10:0.918
+Test Hit@1(10)    = 0.812(0.918) at epoch 51 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.812(0.915) at epoch 41
+Best Test  Hit@10 = 0.918(0.812) at epoch 48
+====================================
+34it [00:05,  6.75it/s]epoch: 52 batch: 34 loss: 0.01253982912749052
+Evaluate at epoch 52: batch 34...
+310it [00:01, 216.23it/s]
+310it [00:01, 216.13it/s]
+35it [00:09,  3.70it/s]
+1it [00:00,  6.16it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.813
+Hit@10:0.918
+Test Hit@1(10)    = 0.813(0.918) at epoch 52 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.813(0.918) at epoch 52
+Best Test  Hit@10 = 0.918(0.812) at epoch 48
+====================================
+34it [00:05,  6.81it/s]epoch: 53 batch: 34 loss: 0.01251649484038353
+Evaluate at epoch 53: batch 34...
+310it [00:01, 216.09it/s]
+310it [00:01, 216.80it/s]
+35it [00:09,  3.68it/s]
+1it [00:00,  6.01it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.813
+Hit@10:0.918
+Test Hit@1(10)    = 0.813(0.918) at epoch 53 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.813(0.918) at epoch 52
+Best Test  Hit@10 = 0.918(0.812) at epoch 48
+====================================
+34it [00:05,  6.02it/s]epoch: 54 batch: 34 loss: 0.012493818998336792
+Evaluate at epoch 54: batch 34...
+310it [00:01, 223.26it/s]
+310it [00:01, 192.69it/s]
+35it [00:09,  3.63it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.813
+Hit@10:0.918
+Test Hit@1(10)    = 0.813(0.918) at epoch 54 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.813(0.918) at epoch 52
+Best Test  Hit@10 = 0.918(0.812) at epoch 48
+====================================
+34it [00:06,  6.43it/s]epoch: 55 batch: 34 loss: 0.012471767142415047
+Evaluate at epoch 55: batch 34...
+310it [00:01, 211.85it/s]
+310it [00:01, 209.40it/s]
+35it [00:10,  3.33it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.813
+Hit@10:0.919
+Test Hit@1(10)    = 0.813(0.919) at epoch 55 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.813(0.918) at epoch 52
+Best Test  Hit@10 = 0.919(0.813) at epoch 55
+====================================
+34it [00:05,  5.38it/s]epoch: 56 batch: 34 loss: 0.012450329028069973
+Evaluate at epoch 56: batch 34...
+310it [00:01, 209.14it/s]
+310it [00:01, 214.74it/s]
+35it [00:09,  3.58it/s]
+1it [00:00,  6.61it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.813
+Hit@10:0.919
+Test Hit@1(10)    = 0.813(0.919) at epoch 56 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.813(0.918) at epoch 52
+Best Test  Hit@10 = 0.919(0.813) at epoch 55
+====================================
+34it [00:05,  6.25it/s]epoch: 57 batch: 34 loss: 0.012429475784301758
+Evaluate at epoch 57: batch 34...
+310it [00:01, 215.53it/s]
+310it [00:01, 218.04it/s]
+35it [00:09,  3.63it/s]
+1it [00:00,  6.99it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.813
+Hit@10:0.919
+Test Hit@1(10)    = 0.813(0.919) at epoch 57 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.813(0.918) at epoch 52
+Best Test  Hit@10 = 0.919(0.813) at epoch 55
+====================================
+34it [00:05,  6.40it/s]epoch: 58 batch: 34 loss: 0.012409193441271782
+Evaluate at epoch 58: batch 34...
+310it [00:01, 217.96it/s]
+310it [00:01, 219.79it/s]
+35it [00:09,  3.78it/s]
+1it [00:00,  6.26it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.813
+Hit@10:0.919
+Test Hit@1(10)    = 0.813(0.919) at epoch 58 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.813(0.918) at epoch 52
+Best Test  Hit@10 = 0.919(0.813) at epoch 55
+====================================
+34it [00:05,  6.01it/s]epoch: 59 batch: 34 loss: 0.01238945685327053
+Evaluate at epoch 59: batch 34...
+310it [00:01, 216.34it/s]
+310it [00:01, 212.43it/s]
+35it [00:10,  3.44it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.814
+Hit@10:0.919
+Test Hit@1(10)    = 0.814(0.919) at epoch 59 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.814(0.919) at epoch 59
+Best Test  Hit@10 = 0.919(0.813) at epoch 55
+====================================
+34it [00:06,  5.54it/s]epoch: 60 batch: 34 loss: 0.012370254844427109
+Evaluate at epoch 60: batch 34...
+310it [00:01, 217.40it/s]
+310it [00:01, 213.61it/s]
+35it [00:10,  3.31it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.814
+Hit@10:0.919
+Test Hit@1(10)    = 0.814(0.919) at epoch 60 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.814(0.919) at epoch 59
+Best Test  Hit@10 = 0.919(0.813) at epoch 55
+====================================
+34it [00:05,  6.44it/s]epoch: 61 batch: 34 loss: 0.0123515659943223
+Evaluate at epoch 61: batch 34...
+310it [00:01, 213.20it/s]
+310it [00:01, 221.71it/s]
+35it [00:09,  3.55it/s]
+1it [00:00,  6.81it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.814
+Hit@10:0.919
+Test Hit@1(10)    = 0.814(0.919) at epoch 61 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.814(0.919) at epoch 59
+Best Test  Hit@10 = 0.919(0.813) at epoch 55
+====================================
+34it [00:05,  6.81it/s]epoch: 62 batch: 34 loss: 0.01233337726444006
+Evaluate at epoch 62: batch 34...
+310it [00:01, 209.48it/s]
+310it [00:01, 215.83it/s]
+35it [00:09,  3.72it/s]
+1it [00:00,  6.18it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.814
+Hit@10:0.919
+Test Hit@1(10)    = 0.814(0.919) at epoch 62 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.814(0.919) at epoch 59
+Best Test  Hit@10 = 0.919(0.813) at epoch 55
+====================================
+34it [00:05,  6.36it/s]epoch: 63 batch: 34 loss: 0.012315666303038597
+Evaluate at epoch 63: batch 34...
+310it [00:01, 215.31it/s]
+310it [00:01, 209.41it/s]
+35it [00:09,  3.68it/s]
+1it [00:00,  6.40it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.814
+Hit@10:0.919
+Test Hit@1(10)    = 0.814(0.919) at epoch 63 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.814(0.919) at epoch 59
+Best Test  Hit@10 = 0.919(0.813) at epoch 55
+====================================
+34it [00:05,  6.42it/s]epoch: 64 batch: 34 loss: 0.012298423796892166
+Evaluate at epoch 64: batch 34...
+310it [00:01, 219.17it/s]
+310it [00:01, 209.64it/s]
+35it [00:09,  3.73it/s]
+1it [00:00,  6.22it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.919
+Test Hit@1(10)    = 0.815(0.919) at epoch 64 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.919(0.813) at epoch 55
+====================================
+34it [00:05,  6.87it/s]epoch: 65 batch: 34 loss: 0.0122816301882267
+Evaluate at epoch 65: batch 34...
+310it [00:01, 217.75it/s]
+310it [00:01, 215.85it/s]
+35it [00:09,  3.66it/s]
+1it [00:00,  5.75it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.919
+Test Hit@1(10)    = 0.815(0.919) at epoch 65 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.919(0.813) at epoch 55
+====================================
+34it [00:05,  6.61it/s]epoch: 66 batch: 34 loss: 0.012265270575881004
+Evaluate at epoch 66: batch 34...
+310it [00:01, 213.31it/s]
+310it [00:01, 212.41it/s]
+35it [00:09,  3.66it/s]
+1it [00:00,  6.43it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.92
+Test Hit@1(10)    = 0.815(0.92) at epoch 66 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.92(0.815) at epoch 66
+====================================
+34it [00:05,  6.22it/s]epoch: 67 batch: 34 loss: 0.012249334715306759
+Evaluate at epoch 67: batch 34...
+310it [00:01, 211.85it/s]
+310it [00:01, 214.58it/s]
+35it [00:09,  3.69it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.92
+Test Hit@1(10)    = 0.815(0.92) at epoch 67 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.92(0.815) at epoch 66
+====================================
+34it [00:05,  6.62it/s]epoch: 68 batch: 34 loss: 0.012233804911375046
+Evaluate at epoch 68: batch 34...
+310it [00:01, 207.85it/s]
+310it [00:01, 213.70it/s]
+35it [00:09,  3.64it/s]
+1it [00:00,  5.39it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.814
+Hit@10:0.92
+Test Hit@1(10)    = 0.814(0.92) at epoch 68 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.92(0.815) at epoch 66
+====================================
+34it [00:05,  6.42it/s]epoch: 69 batch: 34 loss: 0.012218663468956947
+Evaluate at epoch 69: batch 34...
+310it [00:01, 213.43it/s]
+310it [00:01, 216.49it/s]
+35it [00:09,  3.60it/s]
+1it [00:00,  6.26it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.814
+Hit@10:0.92
+Test Hit@1(10)    = 0.814(0.92) at epoch 69 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.92(0.815) at epoch 66
+====================================
+34it [00:05,  6.06it/s]epoch: 70 batch: 34 loss: 0.012203904800117016
+Evaluate at epoch 70: batch 34...
+310it [00:01, 205.90it/s]
+310it [00:01, 211.68it/s]
+35it [00:09,  3.57it/s]
+1it [00:00,  6.00it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.814
+Hit@10:0.92
+Test Hit@1(10)    = 0.814(0.92) at epoch 70 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.92(0.815) at epoch 66
+====================================
+34it [00:05,  6.66it/s]epoch: 71 batch: 34 loss: 0.012189514003694057
+Evaluate at epoch 71: batch 34...
+310it [00:01, 211.89it/s]
+310it [00:01, 219.24it/s]
+35it [00:09,  3.69it/s]
+1it [00:00,  5.95it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.92
+Test Hit@1(10)    = 0.815(0.92) at epoch 71 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.92(0.815) at epoch 66
+====================================
+34it [00:05,  6.49it/s]epoch: 72 batch: 34 loss: 0.012175478972494602
+Evaluate at epoch 72: batch 34...
+310it [00:01, 211.33it/s]
+310it [00:01, 216.70it/s]
+35it [00:09,  3.59it/s]
+1it [00:00,  6.13it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.92
+Test Hit@1(10)    = 0.815(0.92) at epoch 72 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.92(0.815) at epoch 66
+====================================
+34it [00:05,  5.51it/s]epoch: 73 batch: 34 loss: 0.012161781080067158
+Evaluate at epoch 73: batch 34...
+310it [00:01, 216.13it/s]
+310it [00:01, 210.86it/s]
+35it [00:09,  3.53it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.92
+Test Hit@1(10)    = 0.815(0.92) at epoch 73 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.92(0.815) at epoch 66
+====================================
+34it [00:05,  6.65it/s]epoch: 74 batch: 34 loss: 0.012148417532444
+Evaluate at epoch 74: batch 34...
+310it [00:01, 215.39it/s]
+310it [00:01, 217.51it/s]
+35it [00:09,  3.67it/s]
+1it [00:00,  6.32it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.92
+Test Hit@1(10)    = 0.815(0.92) at epoch 74 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.92(0.815) at epoch 66
+====================================
+34it [00:05,  6.72it/s]epoch: 75 batch: 34 loss: 0.012135371565818787
+Evaluate at epoch 75: batch 34...
+310it [00:01, 218.91it/s]
+310it [00:01, 211.53it/s]
+35it [00:09,  3.57it/s]
+1it [00:00,  5.19it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 75 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  6.77it/s]epoch: 76 batch: 34 loss: 0.01212263386696577
+Evaluate at epoch 76: batch 34...
+310it [00:01, 214.53it/s]
+310it [00:01, 219.35it/s]
+35it [00:10,  3.46it/s]
+1it [00:00,  5.60it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.92
+Test Hit@1(10)    = 0.815(0.92) at epoch 76 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:06,  5.60it/s]epoch: 77 batch: 34 loss: 0.012110195122659206
+Evaluate at epoch 77: batch 34...
+310it [00:01, 202.97it/s]
+310it [00:01, 200.87it/s]
+35it [00:10,  3.29it/s]
+1it [00:00,  6.02it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.92
+Test Hit@1(10)    = 0.815(0.92) at epoch 77 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  6.57it/s]epoch: 78 batch: 34 loss: 0.012098044157028198
+Evaluate at epoch 78: batch 34...
+310it [00:01, 213.31it/s]
+310it [00:01, 211.17it/s]
+35it [00:09,  3.60it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 78 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  5.42it/s]epoch: 79 batch: 34 loss: 0.012086170725524426
+Evaluate at epoch 79: batch 34...
+310it [00:01, 214.44it/s]
+310it [00:01, 214.58it/s]
+35it [00:10,  3.48it/s]
+1it [00:00,  6.18it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 79 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  6.63it/s]epoch: 80 batch: 34 loss: 0.012074568308889866
+Evaluate at epoch 80: batch 34...
+310it [00:01, 212.82it/s]
+310it [00:01, 209.08it/s]
+35it [00:09,  3.61it/s]
+1it [00:00,  6.03it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 80 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  5.75it/s]epoch: 81 batch: 34 loss: 0.012063223868608475
+Evaluate at epoch 81: batch 34...
+310it [00:01, 217.44it/s]
+310it [00:01, 214.63it/s]
+35it [00:09,  3.55it/s]
+1it [00:00,  5.32it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.814
+Hit@10:0.921
+Test Hit@1(10)    = 0.814(0.921) at epoch 81 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:06,  6.90it/s]epoch: 82 batch: 34 loss: 0.012052133679389954
+Evaluate at epoch 82: batch 34...
+310it [00:01, 209.73it/s]
+310it [00:01, 208.34it/s]
+35it [00:10,  3.37it/s]
+1it [00:00,  6.34it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.814
+Hit@10:0.921
+Test Hit@1(10)    = 0.814(0.921) at epoch 82 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  6.16it/s]epoch: 83 batch: 34 loss: 0.012041282840073109
+Evaluate at epoch 83: batch 34...
+310it [00:01, 205.77it/s]
+310it [00:01, 210.06it/s]
+35it [00:09,  3.50it/s]
+1it [00:00,  6.06it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 83 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  6.41it/s]epoch: 84 batch: 34 loss: 0.01203066948801279
+Evaluate at epoch 84: batch 34...
+310it [00:01, 214.59it/s]
+310it [00:01, 214.80it/s]
+35it [00:09,  3.70it/s]
+1it [00:00,  5.25it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 84 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  6.40it/s]epoch: 85 batch: 34 loss: 0.012020280584692955
+Evaluate at epoch 85: batch 34...
+310it [00:01, 216.79it/s]
+310it [00:01, 211.41it/s]
+35it [00:09,  3.54it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 85 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:06,  3.59it/s]epoch: 86 batch: 34 loss: 0.012010115198791027
+Evaluate at epoch 86: batch 34...
+310it [00:01, 210.21it/s]
+310it [00:01, 215.46it/s]
+35it [00:10,  3.41it/s]
+1it [00:00,  5.64it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 86 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  6.23it/s]epoch: 87 batch: 34 loss: 0.012000158429145813
+Evaluate at epoch 87: batch 34...
+310it [00:01, 217.61it/s]
+310it [00:01, 218.17it/s]
+35it [00:10,  3.45it/s]
+1it [00:00,  6.14it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 87 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  6.42it/s]epoch: 88 batch: 34 loss: 0.011990407481789589
+Evaluate at epoch 88: batch 34...
+310it [00:01, 208.83it/s]
+310it [00:01, 217.42it/s]
+35it [00:09,  3.52it/s]
+1it [00:00,  6.02it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 88 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  5.63it/s]epoch: 89 batch: 34 loss: 0.011980854906141758
+Evaluate at epoch 89: batch 34...
+310it [00:01, 216.84it/s]
+310it [00:01, 216.56it/s]
+35it [00:09,  3.53it/s]
+1it [00:00,  5.39it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 89 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  6.51it/s]epoch: 90 batch: 34 loss: 0.011971494182944298
+Evaluate at epoch 90: batch 34...
+310it [00:01, 215.42it/s]
+310it [00:01, 207.98it/s]
+35it [00:09,  3.60it/s]
+1it [00:00,  5.69it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.814
+Hit@10:0.921
+Test Hit@1(10)    = 0.814(0.921) at epoch 90 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  6.25it/s]epoch: 91 batch: 34 loss: 0.01196232158690691
+Evaluate at epoch 91: batch 34...
+310it [00:01, 218.69it/s]
+310it [00:01, 212.84it/s]
+35it [00:09,  3.56it/s]
+1it [00:00,  6.26it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 91 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.921(0.815) at epoch 75
+====================================
+34it [00:05,  6.41it/s]epoch: 92 batch: 34 loss: 0.011953328736126423
+Evaluate at epoch 92: batch 34...
+310it [00:01, 214.81it/s]
+310it [00:01, 214.32it/s]
+35it [00:09,  3.62it/s]
+1it [00:00,  6.00it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 92 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.56it/s]epoch: 93 batch: 34 loss: 0.011944510973989964
+Evaluate at epoch 93: batch 34...
+310it [00:01, 211.21it/s]
+310it [00:01, 219.65it/s]
+35it [00:09,  3.56it/s]
+1it [00:00,  6.06it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 93 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  4.56it/s]epoch: 94 batch: 34 loss: 0.011935862712562084
+Evaluate at epoch 94: batch 34...
+310it [00:01, 217.59it/s]
+310it [00:01, 219.31it/s]
+35it [00:09,  3.51it/s]
+1it [00:00,  5.69it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 94 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.47it/s]epoch: 95 batch: 34 loss: 0.011927376501262188
+Evaluate at epoch 95: batch 34...
+310it [00:01, 211.61it/s]
+310it [00:01, 216.89it/s]
+35it [00:09,  3.63it/s]
+1it [00:00,  5.89it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 95 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  5.63it/s]epoch: 96 batch: 34 loss: 0.0119190514087677
+Evaluate at epoch 96: batch 34...
+310it [00:01, 218.95it/s]
+310it [00:01, 213.19it/s]
+35it [00:09,  3.60it/s]
+1it [00:00,  5.95it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 96 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.32it/s]epoch: 97 batch: 34 loss: 0.011910880915820599
+Evaluate at epoch 97: batch 34...
+310it [00:01, 212.16it/s]
+310it [00:01, 218.56it/s]
+35it [00:09,  3.55it/s]
+1it [00:00,  5.95it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 97 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.40it/s]epoch: 98 batch: 34 loss: 0.011902858503162861
+Evaluate at epoch 98: batch 34...
+310it [00:01, 206.52it/s]
+310it [00:01, 218.30it/s]
+35it [00:09,  3.53it/s]
+1it [00:00,  5.97it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 98 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.30it/s]epoch: 99 batch: 34 loss: 0.011894984170794487
+Evaluate at epoch 99: batch 34...
+310it [00:01, 219.15it/s]
+310it [00:01, 214.19it/s]
+35it [00:09,  3.53it/s]
+1it [00:00,  6.04it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 99 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.17it/s]epoch: 100 batch: 34 loss: 0.01188724860548973
+Evaluate at epoch 100: batch 34...
+310it [00:01, 212.52it/s]
+310it [00:01, 216.79it/s]
+35it [00:09,  3.62it/s]
+1it [00:00,  6.39it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 100 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  5.85it/s]epoch: 101 batch: 34 loss: 0.011879650875926018
+Evaluate at epoch 101: batch 34...
+310it [00:01, 213.44it/s]
+310it [00:01, 216.05it/s]
+35it [00:09,  3.64it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 101 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  5.98it/s]epoch: 102 batch: 34 loss: 0.01187218353152275
+Evaluate at epoch 102: batch 34...
+310it [00:01, 206.13it/s]
+310it [00:01, 211.63it/s]
+35it [00:09,  3.53it/s]
+1it [00:00,  5.64it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 102 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  5.34it/s]epoch: 103 batch: 34 loss: 0.01186484657227993
+Evaluate at epoch 103: batch 34...
+310it [00:01, 204.61it/s]
+310it [00:01, 209.21it/s]
+35it [00:10,  3.42it/s]
+1it [00:00,  5.66it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 103 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:06,  6.55it/s]epoch: 104 batch: 34 loss: 0.011857635341584682
+Evaluate at epoch 104: batch 34...
+310it [00:01, 209.43it/s]
+310it [00:01, 216.13it/s]
+35it [00:10,  3.38it/s]
+1it [00:00,  5.80it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 104 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.03it/s]epoch: 105 batch: 34 loss: 0.011850547045469284
+Evaluate at epoch 105: batch 34...
+310it [00:01, 214.68it/s]
+310it [00:01, 220.96it/s]
+35it [00:10,  3.48it/s]
+1it [00:00,  5.94it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 105 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.63it/s]epoch: 106 batch: 34 loss: 0.011843577027320862
+Evaluate at epoch 106: batch 34...
+310it [00:01, 209.23it/s]
+310it [00:01, 211.23it/s]
+35it [00:10,  3.49it/s]
+1it [00:00,  5.96it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 106 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.04it/s]epoch: 107 batch: 34 loss: 0.011836718767881393
+Evaluate at epoch 107: batch 34...
+310it [00:01, 213.33it/s]
+310it [00:01, 213.99it/s]
+35it [00:09,  3.63it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.921
+Test Hit@1(10)    = 0.815(0.921) at epoch 107 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.04it/s]epoch: 108 batch: 34 loss: 0.011829974129796028
+Evaluate at epoch 108: batch 34...
+310it [00:01, 203.17it/s]
+310it [00:01, 217.65it/s]
+35it [00:09,  3.54it/s]
+1it [00:00,  5.73it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 108 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  5.52it/s]epoch: 109 batch: 34 loss: 0.011823339387774467
+Evaluate at epoch 109: batch 34...
+310it [00:01, 212.48it/s]
+310it [00:01, 206.75it/s]
+35it [00:09,  3.52it/s]
+0it [00:00, ?it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 109 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.30it/s]epoch: 110 batch: 34 loss: 0.011816808953881264
+Evaluate at epoch 110: batch 34...
+310it [00:01, 214.96it/s]
+310it [00:01, 214.96it/s]
+35it [00:10,  3.46it/s]
+1it [00:00,  5.37it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 110 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  5.89it/s]epoch: 111 batch: 34 loss: 0.011810380034148693
+Evaluate at epoch 111: batch 34...
+310it [00:01, 210.12it/s]
+310it [00:01, 214.60it/s]
+35it [00:10,  3.45it/s]
+1it [00:00,  6.47it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 111 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.29it/s]epoch: 112 batch: 34 loss: 0.011804056353867054
+Evaluate at epoch 112: batch 34...
+310it [00:01, 213.16it/s]
+310it [00:01, 215.12it/s]
+35it [00:09,  3.59it/s]
+1it [00:00,  5.63it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 112 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  5.60it/s]epoch: 113 batch: 34 loss: 0.011797825805842876
+Evaluate at epoch 113: batch 34...
+310it [00:01, 209.65it/s]
+310it [00:01, 212.22it/s]
+35it [00:10,  3.49it/s]
+1it [00:00,  6.42it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.815
+Hit@10:0.922
+Test Hit@1(10)    = 0.815(0.922) at epoch 113 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.815(0.919) at epoch 64
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.33it/s]epoch: 114 batch: 34 loss: 0.011791692115366459
+Evaluate at epoch 114: batch 34...
+310it [00:01, 216.83it/s]
+310it [00:01, 216.86it/s]
+35it [00:09,  3.59it/s]
+1it [00:00,  5.82it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.816
+Hit@10:0.922
+Test Hit@1(10)    = 0.816(0.922) at epoch 114 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.816(0.922) at epoch 114
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  5.87it/s]epoch: 115 batch: 34 loss: 0.011785651557147503
+Evaluate at epoch 115: batch 34...
+310it [00:01, 216.60it/s]
+310it [00:01, 219.13it/s]
+35it [00:09,  3.61it/s]
+1it [00:00,  6.00it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.816
+Hit@10:0.922
+Test Hit@1(10)    = 0.816(0.922) at epoch 115 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.816(0.922) at epoch 114
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  5.72it/s]epoch: 116 batch: 34 loss: 0.011779699474573135
+Evaluate at epoch 116: batch 34...
+310it [00:01, 213.60it/s]
+310it [00:01, 219.77it/s]
+35it [00:09,  3.52it/s]
+1it [00:00,  5.62it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.816
+Hit@10:0.922
+Test Hit@1(10)    = 0.816(0.922) at epoch 116 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.816(0.922) at epoch 114
+Best Test  Hit@10 = 0.922(0.815) at epoch 92
+====================================
+34it [00:05,  6.37it/s]epoch: 117 batch: 34 loss: 0.011773836798965931
+Evaluate at epoch 117: batch 34...
+310it [00:01, 212.94it/s]
+310it [00:01, 217.38it/s]
+35it [00:09,  3.52it/s]
+1it [00:00,  5.76it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.816
+Hit@10:0.923
+Test Hit@1(10)    = 0.816(0.923) at epoch 117 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.816(0.922) at epoch 114
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  5.95it/s]epoch: 118 batch: 34 loss: 0.011768057011067867
+Evaluate at epoch 118: batch 34...
+310it [00:01, 214.02it/s]
+310it [00:01, 218.48it/s]
+35it [00:10,  3.42it/s]
+1it [00:00,  5.74it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.816
+Hit@10:0.923
+Test Hit@1(10)    = 0.816(0.923) at epoch 118 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.816(0.922) at epoch 114
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.50it/s]epoch: 119 batch: 34 loss: 0.011762362904846668
+Evaluate at epoch 119: batch 34...
+310it [00:01, 215.01it/s]
+310it [00:01, 215.48it/s]
+35it [00:09,  3.61it/s]
+1it [00:00,  5.69it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.816
+Hit@10:0.922
+Test Hit@1(10)    = 0.816(0.922) at epoch 119 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.816(0.922) at epoch 114
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.13it/s]epoch: 120 batch: 34 loss: 0.01175674982368946
+Evaluate at epoch 120: batch 34...
+310it [00:01, 218.78it/s]
+310it [00:01, 215.69it/s]
+35it [00:09,  3.61it/s]
+1it [00:00,  5.89it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.817
+Hit@10:0.923
+Test Hit@1(10)    = 0.817(0.923) at epoch 120 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.817(0.923) at epoch 120
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.57it/s]epoch: 121 batch: 34 loss: 0.01175121683627367
+Evaluate at epoch 121: batch 34...
+310it [00:01, 205.83it/s]
+310it [00:01, 217.32it/s]
+35it [00:09,  3.51it/s]
+1it [00:00,  5.70it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.817
+Hit@10:0.922
+Test Hit@1(10)    = 0.817(0.922) at epoch 121 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.817(0.923) at epoch 120
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.19it/s]epoch: 122 batch: 34 loss: 0.011745761148631573
+Evaluate at epoch 122: batch 34...
+310it [00:01, 212.21it/s]
+310it [00:01, 217.71it/s]
+35it [00:10,  3.46it/s]
+1it [00:00,  5.86it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.818
+Hit@10:0.922
+Test Hit@1(10)    = 0.818(0.922) at epoch 122 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.818(0.922) at epoch 122
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  5.83it/s]epoch: 123 batch: 34 loss: 0.01174037903547287
+Evaluate at epoch 123: batch 34...
+310it [00:01, 211.20it/s]
+310it [00:01, 208.88it/s]
+35it [00:09,  3.52it/s]
+1it [00:00,  5.39it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.818
+Hit@10:0.923
+Test Hit@1(10)    = 0.818(0.923) at epoch 123 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.818(0.922) at epoch 122
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.43it/s]epoch: 124 batch: 34 loss: 0.011735073290765285
+Evaluate at epoch 124: batch 34...
+310it [00:01, 220.78it/s]
+310it [00:01, 220.22it/s]
+35it [00:09,  3.67it/s]
+1it [00:00,  6.10it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.818
+Hit@10:0.923
+Test Hit@1(10)    = 0.818(0.923) at epoch 124 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.818(0.922) at epoch 122
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.36it/s]epoch: 125 batch: 34 loss: 0.011729839257895947
+Evaluate at epoch 125: batch 34...
+310it [00:01, 212.48it/s]
+310it [00:01, 220.13it/s]
+35it [00:10,  3.50it/s]
+1it [00:00,  6.66it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.818
+Hit@10:0.922
+Test Hit@1(10)    = 0.818(0.922) at epoch 125 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.818(0.922) at epoch 122
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  5.88it/s]epoch: 126 batch: 34 loss: 0.011724671348929405
+Evaluate at epoch 126: batch 34...
+310it [00:01, 217.60it/s]
+310it [00:01, 217.90it/s]
+35it [00:09,  3.68it/s]
+1it [00:00,  6.59it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.818
+Hit@10:0.922
+Test Hit@1(10)    = 0.818(0.922) at epoch 126 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.818(0.922) at epoch 122
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.43it/s]epoch: 127 batch: 34 loss: 0.011719578877091408
+Evaluate at epoch 127: batch 34...
+310it [00:01, 205.12it/s]
+310it [00:01, 216.41it/s]
+35it [00:09,  3.55it/s]
+1it [00:00,  6.68it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.818
+Hit@10:0.922
+Test Hit@1(10)    = 0.818(0.922) at epoch 127 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.818(0.922) at epoch 122
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.40it/s]epoch: 128 batch: 34 loss: 0.011714551597833633
+Evaluate at epoch 128: batch 34...
+310it [00:01, 213.29it/s]
+310it [00:01, 217.92it/s]
+35it [00:09,  3.68it/s]
+1it [00:00,  6.60it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.819
+Hit@10:0.922
+Test Hit@1(10)    = 0.819(0.922) at epoch 128 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.819(0.922) at epoch 128
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.39it/s]epoch: 129 batch: 34 loss: 0.011709588579833508
+Evaluate at epoch 129: batch 34...
+310it [00:01, 221.39it/s]
+310it [00:01, 218.28it/s]
+35it [00:09,  3.52it/s]
+1it [00:00,  7.31it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.819
+Hit@10:0.922
+Test Hit@1(10)    = 0.819(0.922) at epoch 129 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.819(0.922) at epoch 128
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.28it/s]epoch: 130 batch: 34 loss: 0.011704687960445881
+Evaluate at epoch 130: batch 34...
+310it [00:01, 220.71it/s]
+310it [00:01, 222.12it/s]
+35it [00:09,  3.72it/s]
+1it [00:00,  6.88it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.819
+Hit@10:0.922
+Test Hit@1(10)    = 0.819(0.922) at epoch 130 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.819(0.922) at epoch 128
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.87it/s]epoch: 131 batch: 34 loss: 0.011699854396283627
+Evaluate at epoch 131: batch 34...
+310it [00:01, 219.46it/s]
+310it [00:01, 217.53it/s]
+35it [00:09,  3.66it/s]
+1it [00:00,  7.39it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.819
+Hit@10:0.923
+Test Hit@1(10)    = 0.819(0.923) at epoch 131 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.819(0.922) at epoch 128
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  7.05it/s]epoch: 132 batch: 34 loss: 0.011695078574120998
+Evaluate at epoch 132: batch 34...
+310it [00:01, 222.58it/s]
+310it [00:01, 209.53it/s]
+35it [00:09,  3.82it/s]
+1it [00:00,  6.94it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 132 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.48it/s]epoch: 133 batch: 34 loss: 0.01169036328792572
+Evaluate at epoch 133: batch 34...
+310it [00:01, 212.89it/s]
+310it [00:01, 214.85it/s]
+35it [00:09,  3.65it/s]
+1it [00:00,  5.58it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 133 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.55it/s]epoch: 134 batch: 34 loss: 0.011685708537697792
+Evaluate at epoch 134: batch 34...
+310it [00:01, 209.95it/s]
+310it [00:01, 216.94it/s]
+35it [00:09,  3.72it/s]
+1it [00:00,  6.56it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 134 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.83it/s]epoch: 135 batch: 34 loss: 0.011681107804179192
+Evaluate at epoch 135: batch 34...
+310it [00:01, 223.24it/s]
+310it [00:01, 217.75it/s]
+35it [00:09,  3.70it/s]
+1it [00:00,  7.41it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 135 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.83it/s]epoch: 136 batch: 34 loss: 0.011676565743982792
+Evaluate at epoch 136: batch 34...
+310it [00:01, 216.46it/s]
+310it [00:01, 213.53it/s]
+35it [00:09,  3.74it/s]
+1it [00:00,  6.58it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 136 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.41it/s]epoch: 137 batch: 34 loss: 0.011672078631818295
+Evaluate at epoch 137: batch 34...
+310it [00:01, 218.62it/s]
+310it [00:01, 219.51it/s]
+35it [00:09,  3.66it/s]
+1it [00:00,  7.16it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 137 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.55it/s]epoch: 138 batch: 34 loss: 0.01166764460504055
+Evaluate at epoch 138: batch 34...
+310it [00:01, 208.70it/s]
+310it [00:01, 216.31it/s]
+35it [00:09,  3.63it/s]
+1it [00:00,  6.35it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 138 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.46it/s]epoch: 139 batch: 34 loss: 0.01166326180100441
+Evaluate at epoch 139: batch 34...
+310it [00:01, 225.97it/s]
+310it [00:01, 216.28it/s]
+35it [00:09,  3.69it/s]
+1it [00:00,  6.62it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 139 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.22it/s]epoch: 140 batch: 34 loss: 0.011658930219709873
+Evaluate at epoch 140: batch 34...
+310it [00:01, 214.03it/s]
+310it [00:01, 219.75it/s]
+35it [00:09,  3.60it/s]
+1it [00:00,  6.51it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 140 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.69it/s]epoch: 141 batch: 34 loss: 0.011654653586447239
+Evaluate at epoch 141: batch 34...
+310it [00:01, 218.55it/s]
+310it [00:01, 218.83it/s]
+35it [00:09,  3.59it/s]
+1it [00:00,  6.73it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.819
+Hit@10:0.923
+Test Hit@1(10)    = 0.819(0.923) at epoch 141 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.78it/s]epoch: 142 batch: 34 loss: 0.011650423519313335
+Evaluate at epoch 142: batch 34...
+310it [00:01, 214.96it/s]
+310it [00:01, 215.45it/s]
+35it [00:09,  3.66it/s]
+1it [00:00,  6.57it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 142 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.63it/s]epoch: 143 batch: 34 loss: 0.011646239086985588
+Evaluate at epoch 143: batch 34...
+310it [00:01, 219.26it/s]
+310it [00:01, 218.25it/s]
+35it [00:09,  3.52it/s]
+1it [00:00,  6.37it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 143 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.85it/s]epoch: 144 batch: 34 loss: 0.011642105877399445
+Evaluate at epoch 144: batch 34...
+310it [00:01, 223.20it/s]
+310it [00:01, 220.94it/s]
+35it [00:09,  3.71it/s]
+1it [00:00,  7.12it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 144 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.34it/s]epoch: 145 batch: 34 loss: 0.011638019233942032
+Evaluate at epoch 145: batch 34...
+310it [00:01, 219.60it/s]
+310it [00:01, 223.43it/s]
+35it [00:09,  3.70it/s]
+1it [00:00,  7.19it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 145 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  5.80it/s]epoch: 146 batch: 34 loss: 0.0116339772939682
+Evaluate at epoch 146: batch 34...
+310it [00:01, 218.85it/s]
+310it [00:01, 217.68it/s]
+35it [00:09,  3.69it/s]
+1it [00:00,  6.21it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.923
+Test Hit@1(10)    = 0.82(0.923) at epoch 146 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.923(0.816) at epoch 117
+====================================
+34it [00:05,  6.71it/s]epoch: 147 batch: 34 loss: 0.011629978194832802
+Evaluate at epoch 147: batch 34...
+310it [00:01, 219.95it/s]
+310it [00:01, 218.57it/s]
+35it [00:09,  3.57it/s]
+1it [00:00,  6.85it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.924
+Test Hit@1(10)    = 0.82(0.924) at epoch 147 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.924(0.82) at epoch 147
+====================================
+34it [00:05,  6.58it/s]epoch: 148 batch: 34 loss: 0.011626024730503559
+Evaluate at epoch 148: batch 34...
+310it [00:01, 212.55it/s]
+310it [00:01, 217.36it/s]
+35it [00:09,  3.63it/s]
+1it [00:00,  6.48it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.82
+Hit@10:0.924
+Test Hit@1(10)    = 0.82(0.924) at epoch 148 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.82(0.923) at epoch 132
+Best Test  Hit@10 = 0.924(0.82) at epoch 147
+====================================
+34it [00:05,  6.37it/s]epoch: 149 batch: 34 loss: 0.0116221122443676
+Evaluate at epoch 149: batch 34...
+310it [00:01, 220.14it/s]
+310it [00:01, 212.55it/s]
+35it [00:09,  3.67it/s]===========Test===========
+#Entity: 10500
+Hit@1: 0.821
+Hit@10:0.924
+Test Hit@1(10)    = 0.821(0.924) at epoch 149 batch 34
+Best Valid Hit@1  = 0(0) at epoch 0
+Best Valid Hit@10 = 0(0) at epoch 0
+Test @ Best Valid = 0(0) at epoch 0 batch 0
+Best Test  Hit@1  = 0.821(0.924) at epoch 149
+Best Test  Hit@10 = 0.924(0.82) at epoch 147
+====================================
+start: 2024-01-25 17:31:38
+end: 2024-01-25 17:56:14
+used_time: 0:24:35.956421
+

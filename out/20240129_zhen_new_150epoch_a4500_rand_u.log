@@ -1,0 +1,49 @@
+Language: zh_en
+Train data size: 750
+Should early stop at epoch 29
+Best Test  Hit@1  = 0.682(0.829) at epoch 14
+Best Test  Hit@10 = 0.832(0.68) at epoch 27
+start: 2024-01-30 10:42:39
+end: 2024-01-30 10:45:01
+used_time: 0:02:22.478160
+====================================
+Train data size: 1500
+Should early stop at epoch 19
+Best Test  Hit@1  = 0.689(0.836) at epoch 8
+Best Test  Hit@10 = 0.838(0.689) at epoch 14
+start: 2024-01-30 10:45:06
+end: 2024-01-30 10:47:11
+used_time: 0:02:05.143300
+====================================
+Train data size: 2250
+Should early stop at epoch 14
+Best Test  Hit@1  = 0.693(0.841) at epoch 6
+Best Test  Hit@10 = 0.846(0.692) at epoch 14
+start: 2024-01-30 10:47:15
+end: 2024-01-30 10:49:18
+used_time: 0:02:03.442476
+====================================
+Train data size: 3000
+Should early stop at epoch 19
+Best Test  Hit@1  = 0.698(0.847) at epoch 8
+Best Test  Hit@10 = 0.852(0.697) at epoch 16
+start: 2024-01-30 10:49:22
+end: 2024-01-30 10:53:07
+used_time: 0:03:44.930844
+====================================
+Train data size: 3750
+Should early stop at epoch 9
+Best Test  Hit@1  = 0.704(0.858) at epoch 8
+Best Test  Hit@10 = 0.858(0.704) at epoch 8
+start: 2024-01-30 10:53:11
+end: 2024-01-30 10:55:55
+used_time: 0:02:43.269071
+====================================
+Train data size: 4500
+Should early stop at epoch 18
+Best Test  Hit@1  = 0.702(0.854) at epoch 6
+Best Test  Hit@10 = 0.859(0.694) at epoch 18
+start: 2024-01-30 10:55:59
+end: 2024-01-30 11:02:06
+used_time: 0:06:07.281510
+====================================

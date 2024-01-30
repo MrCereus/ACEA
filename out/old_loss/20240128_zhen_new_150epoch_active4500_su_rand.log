@@ -1,0 +1,42 @@
+Train data size: 750
+Best Test  Hit@1  = 0.707(0.857) at epoch 139
+Best Test  Hit@10 = 0.857(0.706) at epoch 138
+start: 2024-01-28 18:39:33
+end: 2024-01-28 18:52:51
+used_time: 0:13:17.213226
+====================================
+Train data size: 1500
+Best Test  Hit@1  = 0.724(0.869) at epoch 63
+Best Test  Hit@10 = 0.875(0.724) at epoch 146
+start: 2024-01-28 18:52:57
+end: 2024-01-28 19:09:05
+used_time: 0:16:07.586581
+====================================
+Train data size: 2250
+Best Test  Hit@1  = 0.752(0.895) at epoch 148
+Best Test  Hit@10 = 0.895(0.752) at epoch 148
+start: 2024-01-28 19:09:10
+end: 2024-01-28 19:30:03
+used_time: 0:20:53.605596
+====================================
+Train data size: 3000
+Best Test  Hit@1  = 0.783(0.911) at epoch 88
+Best Test  Hit@10 = 0.914(0.782) at epoch 138
+start: 2024-01-28 19:30:08
+end: 2024-01-28 19:56:34
+used_time: 0:26:26.239313
+====================================
+Train data size: 3750
+Best Test  Hit@1  = 0.818(0.927) at epoch 145
+Best Test  Hit@10 = 0.928(0.816) at epoch 108
+start: 2024-01-28 19:56:40
+end: 2024-01-28 20:29:34
+used_time: 0:32:54.208973
+====================================
+Train data size: 4500
+Best Test  Hit@1  = 0.852(0.941) at epoch 56
+Best Test  Hit@10 = 0.944(0.852) at epoch 144
+start: 2024-01-28 20:29:40
+end: 2024-01-28 21:12:37
+used_time: 0:42:57.395502
+====================================

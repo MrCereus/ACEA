@@ -21,7 +21,7 @@ def load_triples(data_dir, file_num=2):
     for file_name in file_names:
         with open(file_name, "r", encoding="utf-8") as f:
             data = f.read().strip().split("\n")
-            data = [tuple(map(int, i.split("\t"))) for i in data]
+            data = [list(map(int, i.split("\t"))) for i in data]
             triple += data
     np.random.shuffle(triple)
     return triple
@@ -87,12 +87,14 @@ class SeedDataset(Dataset):
         super(SeedDataset, self).__init__()
         self.x_train = [[k] for k in seed[0]]
         self.y_train = [[k] for k in seed[1]]
+        self.neg = [[k] for k in seed[2]]
         self.num = len(self.x_train)
         self.x_train = torch.Tensor(self.x_train).long()
         self.y_train = torch.Tensor(self.y_train).long()
+        self.neg = torch.Tensor(self.neg).long()
 
     def __getitem__(self, index):
-        return self.x_train[index], self.y_train[index]
+        return self.x_train[index], [self.y_train[index], self.neg[index]]
 
     def __len__(self):
         return self.num
@@ -135,3 +137,72 @@ class MyRawdataset(Dataset):
 
     def __len__(self):
         return self.num
+
+class MyDataserLoader:
+    def __init__(self, path, args):
+        self.args = args
+        self.path = self.path = path + '/' + self.args['language']
+        self.ill_idx = load_triples(self.path + "/ref_ent_ids", file_num=1)
+        rate, val = 0.05, 0.0
+        self.ill_train_idx, self.ill_val_idx, self.ill_test_idx = \
+            np.array(self.ill_idx[:int(len(self.ill_idx) // 1 * rate)], dtype=np.int32), \
+            np.array(self.ill_idx[int(len(self.ill_idx) // 1 * rate) : int(len(self.ill_idx) // 1 * (rate+val))], dtype=np.int32), \
+            np.array(self.ill_idx[int(len(self.ill_idx) // 1 * (rate+val)):], dtype=np.int32)
+        # self.ill_train_idx = list(zip(*self.ill_train_idx))
+        self.ill_train_idx = list(map(list,list(zip(*self.ill_train_idx))))
+        self.ill_train_idx.append(self.ill_train_idx[1][::-1])
+        self.link = {}
+        for [k, v] in self.ill_test_idx:
+            self.link[k] = v 
+        self.seedset = SeedDataset(self.ill_train_idx)
+        self.seedloader = Data.DataLoader(
+            dataset=self.seedset,  # torch TensorDataset format
+            batch_size=self.args['batch_size'],  # all test data
+            shuffle=True,
+            drop_last=True,
+        )
+        self.loader1 = DBP15KRawNeighbors(self.path, self.args['language'], "1")
+        self.loader2 = DBP15KRawNeighbors(self.path, self.args['language'], "2")
+        self.myset1 = MyRawdataset(self.loader1.id_neighbors_dict, self.loader1.id_adj_tensor_dict)
+        self.myset2 = MyRawdataset(self.loader2.id_neighbors_dict, self.loader2.id_adj_tensor_dict)
+        self.all_data_batches = []
+        for batch_id, (token_data, id_data) in enumerate(self.seedloader):
+            self.all_data_batches.append([torch.Tensor(list(zip(*token_data)))[0], \
+                                    torch.Tensor(list(zip(*id_data)))[:,0],\
+                                    torch.Tensor(list(zip(*id_data)))[:,1]])
+        random.shuffle(self.all_data_batches)
+        self.eval_loader1 = Data.DataLoader(
+            dataset=self.myset1,  # torch TensorDataset format
+            batch_size=64,  # all test data
+            shuffle=True,
+            drop_last=False,
+        )
+        self.eval_loader2 = Data.DataLoader(
+            dataset=self.myset2,  # torch TensorDataset format
+            batch_size=64,  # all test data
+            shuffle=True,
+            drop_last=False,
+        )
+
+    def update_data(self, selected_ent, topk_mat, rand = False):
+        for ent1 in selected_ent:
+            ent2 = self.link[ent1]
+            self.ill_train_idx[0].append(ent1)
+            self.ill_train_idx[1].append(ent2)
+            self.ill_train_idx[2].append(topk_mat[ent1][0] if topk_mat[ent1][0] != ent2 else topk_mat[ent1][1])
+            del self.link[ent1]
+        
+        if rand:
+            self.ill_train_idx[2] = self.ill_train_idx[1][::-1]
+        self.seedset = SeedDataset(self.ill_train_idx)
+        self.seedloader = Data.DataLoader(
+            dataset=self.seedset,  # torch TensorDataset format
+            batch_size=self.args['batch_size'],  # all test data
+            shuffle=True,
+            drop_last=True,
+        )
+        for batch_id, (token_data, id_data) in enumerate(self.seedloader):
+            self.all_data_batches.append([torch.Tensor(list(zip(*token_data)))[0], \
+                                    torch.Tensor(list(zip(*id_data)))[:,0],\
+                                    torch.Tensor(list(zip(*id_data)))[:,1]])
+        random.shuffle(self.all_data_batches)

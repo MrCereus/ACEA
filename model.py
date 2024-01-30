@@ -24,6 +24,12 @@ from load import *
 MAX_LEN = 88
 PROJ_PATH = '/home/mrcactus/Thesis/ACEA/util'
 
+def adjust_learning_rate(optimizer, epoch, lr):
+    if (epoch+1) % 10 == 0:
+        lr *= 0.5
+    for param_group in optimizer.param_groups:
+        param_group['lr'] = lr
+
 class NCESoftmaxLoss(nn.Module):
 
     def __init__(self, device):
@@ -58,11 +64,23 @@ class MyEmbedder(nn.Module):
         self.batch_queue = []
 
     def contrastive_loss(self, pos_1, pos_2, neg_value):
+        # print("pos_1.shape: ", pos_1.shape)
+        # print("pos_2.shape: ", pos_2.shape)
+        # print("neg_value.shape: ", neg_value.shape)
         bsz = pos_1.shape[0]
         l_pos = torch.bmm(pos_1.view(bsz, 1, -1), pos_2.view(bsz, -1, 1))
         l_pos = l_pos.view(bsz, 1)
+        # print("l_pos.shape: ", l_pos.shape)
         l_neg = torch.mm(pos_1.view(bsz, -1), neg_value.t())
+        # l_neg = torch.bmm(pos_1.view(bsz, 1, -1), neg_value.view(bsz, -1, 1))
+        # l_neg = l_neg.view(bsz, 1)
+        # print("l_neg.shape: ", l_neg.shape)
+
+        # l_neg_rep = l_neg.t().repeat(bsz, 1)
         logits = torch.cat((l_pos, l_neg), dim=1)
+        # logits = torch.cartesian_prod(l_pos.squeeze(), l_neg.squeeze())
+        # print("logits.shape: ", logits.shape)
+        # print(logits)
         logits = logits.squeeze().contiguous()
         return self.criterion(logits / self.args['t'])
 
@@ -143,50 +161,14 @@ class BatchMultiHeadGraphAttention(nn.Module):
             return output
         
 class MyKG:
-    def __init__(self, args, device, path):
+    def __init__(self, args, device, path, loader):
         self.args = args
         self.device = device
         self.path = path + '/' + self.args['language']
-        self.ill_idx = load_triples(self.path + "/ref_ent_ids", file_num=1)
-        rate, val = 0.3, 0.0
-        self.ill_train_idx, self.ill_val_idx, self.ill_test_idx = \
-            np.array(self.ill_idx[:int(len(self.ill_idx) // 1 * rate)], dtype=np.int32), \
-            np.array(self.ill_idx[int(len(self.ill_idx) // 1 * rate) : int(len(self.ill_idx) // 1 * (rate+val))], dtype=np.int32), \
-            np.array(self.ill_idx[int(len(self.ill_idx) // 1 * (rate+val)):], dtype=np.int32)
-        self.ill_train_idx = list(zip(*self.ill_train_idx))
-        self.link = {}
-        for [k, v] in self.ill_test_idx:
-            self.link[k] = v 
-        self.seedset = SeedDataset(self.ill_train_idx)
-        self.seedloader = Data.DataLoader(
-            dataset=self.seedset,  # torch TensorDataset format
-            batch_size=self.args['batch_size'],  # all test data
-            shuffle=True,
-            drop_last=True,
-        )
-        self.loader1 = DBP15KRawNeighbors(self.path, self.args['language'], "1")
-        self.loader2 = DBP15KRawNeighbors(self.path, self.args['language'], "2")
-        self.myset1 = MyRawdataset(self.loader1.id_neighbors_dict, self.loader1.id_adj_tensor_dict)
-        self.myset2 = MyRawdataset(self.loader2.id_neighbors_dict, self.loader2.id_adj_tensor_dict)
-        self.all_data_batches = []
-        for batch_id, (token_data, id_data) in enumerate(self.seedloader):
-            self.all_data_batches.append([torch.Tensor(list(zip(*token_data)))[0], \
-                                    torch.Tensor(list(zip(*id_data)))[0]])
-        random.shuffle(self.all_data_batches)
-        self.eval_loader1 = Data.DataLoader(
-            dataset=self.myset1,  # torch TensorDataset format
-            batch_size=64,  # all test data
-            shuffle=True,
-            drop_last=False,
-        )
-        self.eval_loader2 = Data.DataLoader(
-            dataset=self.myset2,  # torch TensorDataset format
-            batch_size=64,  # all test data
-            shuffle=True,
-            drop_last=False,
-        )
+        self.loader = loader
+        self.lr = self.args['lr']
         self.model = MyEmbedder(self.args, VOCAB_SIZE).to(self.device)
-        self.optimizer = optim.Adam(params=self.model.parameters(), lr=self.args['lr'])
+        self.optimizer = optim.Adam(params=self.model.parameters(), lr=self.lr)
     def cal_sim(self, v1, v2, link, ids_1, inverse_ids_2):
         source = [_id for _id in ids_1 if _id in link]
         target = np.array(
@@ -198,41 +180,46 @@ class MyKG:
         index.add(np.ascontiguousarray(v2))
         D, I = index.search(np.ascontiguousarray(v1), 10)
         return source, target, D, I # D是相似性矩阵， I是ID矩阵
-    def evaluate(self, model, eval_loader1, eval_loader2, link, step):
-        print("Evaluate at epoch {}...".format(step))
+    def evaluate(self, model, eval_loader1, eval_loader2, link, step, predict = False):
+        # print("Evaluate at epoch {}...".format(step))
 
         ids_1, ids_2, vector_1, vector_2 = list(), list(), list(), list()
         inverse_ids_2 = dict()
+        ids_2_index = dict()
         with torch.no_grad():
             model.eval()
-            for sample_id_1, (token_data_1, id_data_1) in tqdm(enumerate(eval_loader1)):
+            for sample_id_1, (token_data_1, id_data_1) in enumerate(eval_loader1):
                 entity_vector_1 = model(token_data_1).squeeze().detach().cpu().numpy()
                 ids_1.extend(id_data_1.squeeze().tolist())
                 vector_1.append(entity_vector_1)
 
-            for sample_id_2, (token_data_2, id_data_2) in tqdm(enumerate(eval_loader2)):
+            for sample_id_2, (token_data_2, id_data_2) in enumerate(eval_loader2):
                 entity_vector_2 = model(token_data_2).squeeze().detach().cpu().numpy()
                 ids_2.extend(id_data_2.squeeze().tolist())
                 vector_2.append(entity_vector_2)
 
         for idx, _id in enumerate(ids_2):
-            inverse_ids_2[_id] = idx
+            inverse_ids_2[_id] = idx 
+            ids_2_index[idx] = _id
         source, target, D, I = self.cal_sim(vector_1, vector_2, link, ids_1, inverse_ids_2)
         def cal_hit(source, target, D, I):
             # print(len(I))
             hit1 = (I[:, 0] == target).astype(np.int32).sum() / len(source)
             hit10 = (I == target[:, np.newaxis]).astype(np.int32).sum() / len(source)
-            print("#Entity: {}".format(len(source)))
-            print("Hit@1: {}".format(round(hit1, 3)))
-            print("Hit@10:{}".format(round(hit10, 3)))
+            # print("#Entity: {}".format(len(source)))
+            # print("Hit@1: {}".format(round(hit1, 3)))
+            # print("Hit@10:{}".format(round(hit10, 3)))
             return round(hit1, 3), round(hit10, 3)
-        print('===========Test===========')
+        if predict:
+            I = np.array(list(map(lambda x: [ids_2_index[y] for y in x], I)))
+            return source, target, D, I, vector_1
+        # print('===========Test===========')
         hit1_test, hit10_test = cal_hit(source, target, D, I)
         return hit1_test, hit10_test
 
     def train(self):
         start_time = datetime.now()
-        self.evaluate(self.model, self.eval_loader1, self.eval_loader2, self.link, 0)
+        self.evaluate(self.model, self.loader.eval_loader1, self.loader.eval_loader2, self.loader.link, 0)
         best_hit1_valid_epoch = 0
         best_hit10_valid_epoch = 0
         best_hit1_test_epoch = 0
@@ -249,44 +236,52 @@ class MyKG:
         record_hit10 = 0
         record_epoch = 0
         record_batch_id = 0
+        last_loss = 99999
         for epoch in range(self.args['epoch']):
-            for batch_id, (x_ids, y_ids) in tqdm(enumerate(self.all_data_batches)):
+            adjust_learning_rate(self.optimizer, epoch, self.lr)
+            for batch_id, (x_ids, y_ids, ny_ids) in enumerate(self.loader.all_data_batches):
                 kg1_train_ent_idx = list(map(lambda x: int(x), list(x_ids)))
                 kg1_train_ent_emb = None 
                 kg2_train_ent_idx = list(map(lambda x: int(x), list(y_ids)))
                 kg2_train_ent_emb = None 
+                neg_ent_idx = list(map(lambda x: int(x), list(ny_ids)))
+                neg_ent_emb = None
                 with torch.no_grad():
                     for idx in kg1_train_ent_idx:
                         if kg1_train_ent_emb==None:
-                            kg1_train_ent_emb = self.myset1.id_emb[idx].unsqueeze(0)
+                            kg1_train_ent_emb = self.loader.myset1.id_emb[idx].unsqueeze(0)
                         else:
                             kg1_train_ent_emb = torch.cat((kg1_train_ent_emb,\
-                                                        self.myset1.id_emb[idx].unsqueeze(0)),0)
+                                                        self.loader.myset1.id_emb[idx].unsqueeze(0)),0)
                     for idx in kg2_train_ent_idx:
                         if kg2_train_ent_emb==None:
-                            kg2_train_ent_emb = self.myset2.id_emb[idx].unsqueeze(0)
+                            kg2_train_ent_emb = self.loader.myset2.id_emb[idx].unsqueeze(0)
                         else:
                             kg2_train_ent_emb = torch.cat((kg2_train_ent_emb,\
-                                                        self.myset2.id_emb[idx].unsqueeze(0)),0)
+                                                        self.loader.myset2.id_emb[idx].unsqueeze(0)),0)
                     # kg1_train_ent_emb.append(myset1.id_emb[idx])
-                    idx = [i for i in range(kg2_train_ent_emb.size(0)-1,-1,-1)]
-                    idx = torch.LongTensor(idx)
-                    neg_queue = kg2_train_ent_emb.index_select(0, idx)
+                    for idx in neg_ent_idx:
+                        if neg_ent_emb==None:
+                            neg_ent_emb = self.loader.myset2.id_emb[idx].unsqueeze(0)
+                        else:
+                            neg_ent_emb = torch.cat((neg_ent_emb,\
+                                                        self.loader.myset2.id_emb[idx].unsqueeze(0)),0)
+                    
                 
                 self.optimizer.zero_grad()
                 pos_1 = self.model(kg1_train_ent_emb)
                 pos_2 = self.model(kg2_train_ent_emb)
-                neg = self.model(neg_queue)
+                neg = self.model(neg_ent_emb)
                 contrastive_loss = self.model.contrastive_loss(pos_1, pos_2, neg)
 
                 contrastive_loss.backward(retain_graph=True)
                 self.optimizer.step()
 
-                if batch_id == len(self.all_data_batches) - 1:
+                if batch_id == len(self.loader.all_data_batches) - 1:
                 # if batch_id % 200 == 0 or batch_id == len(all_data_batches) - 1:
-                    print('epoch: {} batch: {} loss: {}'.format(epoch, batch_id,
-                                                                contrastive_loss.detach().cpu().data / 64))
-                    hit1_test, hit10_test = self.evaluate(self.model, self.eval_loader1, self.eval_loader2, self.link, str(epoch)+": batch "+str(batch_id))
+                    loss = contrastive_loss.detach().cpu().data / 64
+                    # print('epoch: {} batch: {} loss: {}'.format(epoch, batch_id, loss))
+                    hit1_test, hit10_test = self.evaluate(self.model, self.loader.eval_loader1, self.loader.eval_loader2, self.loader.link, str(epoch)+": batch "+str(batch_id))
 
                     if hit1_test > best_hit1_test:
                         best_hit1_test = hit1_test
@@ -297,15 +292,25 @@ class MyKG:
                         best_hit10_test_hit1 = hit1_test
                         best_hit10_test_epoch = epoch
                     
-                    print('Test Hit@1(10)    = {}({}) at epoch {} batch {}'.format(hit1_test, hit10_test, epoch, batch_id))
-                    print('Best Valid Hit@1  = {}({}) at epoch {}'.format(best_hit1_valid, best_hit1_valid_hit10, best_hit1_valid_epoch))
-                    print('Best Valid Hit@10 = {}({}) at epoch {}'.format(best_hit10_valid,best_hit10_valid_hit1, best_hit10_valid_epoch))
-                    print('Test @ Best Valid = {}({}) at epoch {} batch {}'.format(record_hit1, record_hit10, record_epoch, record_batch_id))
+            #         # print('Test Hit@1(10)    = {}({}) at epoch {} batch {}'.format(hit1_test, hit10_test, epoch, batch_id))
+            #         # print('Best Valid Hit@1  = {}({}) at epoch {}'.format(best_hit1_valid, best_hit1_valid_hit10, best_hit1_valid_epoch))
+            #         # print('Best Valid Hit@10 = {}({}) at epoch {}'.format(best_hit10_valid,best_hit10_valid_hit1, best_hit10_valid_epoch))
+            #         # print('Test @ Best Valid = {}({}) at epoch {} batch {}'.format(record_hit1, record_hit10, record_epoch, record_batch_id))
 
-                    print('Best Test  Hit@1  = {}({}) at epoch {}'.format(best_hit1_test, best_hit1_test_hit10, best_hit1_test_epoch))
-                    print('Best Test  Hit@10 = {}({}) at epoch {}'.format(best_hit10_test,best_hit10_test_hit1, best_hit10_test_epoch))
-                    print("====================================")
+            #         print('Best Test  Hit@1  = {}({}) at epoch {}'.format(best_hit1_test, best_hit1_test_hit10, best_hit1_test_epoch))
+            #         print('Best Test  Hit@10 = {}({}) at epoch {}'.format(best_hit10_test,best_hit10_test_hit1, best_hit10_test_epoch))
+            #         print("====================================")
+            # print(last_loss, loss)
+            if abs(last_loss - loss) < 0.000001:
+                print("Should early stop at epoch" , epoch)
+                break
+            last_loss = loss
+        print('Best Test  Hit@1  = {}({}) at epoch {}'.format(best_hit1_test, best_hit1_test_hit10, best_hit1_test_epoch))
+        print('Best Test  Hit@10 = {}({}) at epoch {}'.format(best_hit10_test,best_hit10_test_hit1, best_hit10_test_epoch))
+        
         end_time = datetime.now()
         print("start: "+start_time.strftime("%Y-%m-%d %H:%M:%S"))
         print("end: "+end_time.strftime("%Y-%m-%d %H:%M:%S"))
         print("used_time: "+ str(end_time - start_time))
+        print("====================================")
+        return self.evaluate(self.model, self.loader.eval_loader1, self.loader.eval_loader2, self.loader.link, str(epoch)+": batch "+str(batch_id), predict = True)
